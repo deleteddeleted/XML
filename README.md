@@ -34,30 +34,31 @@ i
 </root>  
 esc :wq enter 
  
- 28. Отправить изменения на внешний репозиторий.
-git add .
-git status
-git commit -m "Отредактировано содержание файла"
-git push
+ 28. Отправить изменения на внешний репозиторий.  
+git add .  
+git status  
+git commit -m "Отредактировано содержание файла"  
+git push  
 
- 29. Создать файл preferences.xml
+ 29. Создать файл preferences.xml  
 touch preferences.xml
 
- 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
-vim preferences.xml
-i
-<?xml version="1.0" encoding="UTF-8"?>
-<preferences>
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.  
+vim preferences.xml  
+i  
+<?xml version="1.0" encoding="UTF-8"?>  
+<preferences>  
         <Favorite_movie>The Book Thief</Favorite_movie>
 	<Favorite_TV_series>13 Reasons Why</Favorite_TV_series>
 	<Favorite_food>pizza</Favorite_food>
 	<Favorite_seasons>summer</Favorite_seasons>
 	<Country>Norway</Country>
 </preferences>
-esc :wq enter
- 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
-vim skills.xml
-i
+esc :wq enter 
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
+vim skills.xml  
+i  
 <?xml version="1.0" encoding="UTF-8"?>
 <Skills_I_Will_Learn>
         <Skill1>Terminal</Skill1>
@@ -66,21 +67,21 @@ i
         <Skill4>Postman</Skill4>
         <Skill4>Test case</Skill4>
 </Skills_I_Will_Learn>
-esc :wq enter
+esc :wq enter  
 
- 32. Сделать коммит в одну строку.
-git add . && git commit -m "Коммит в одну строку"
+ 32. Сделать коммит в одну строку.  
+git add . && git commit -m "Коммит в одну строку"  
 
- 33. Отправить сразу 2 файла на внешний репозиторий.
-git push
+ 33. Отправить сразу 2 файла на внешний репозиторий.  
+git push  
 
  34. На веб интерфейсе создать файл bug_report.xml.
-Add file --> Create new file --> Name: bug_report.xml
+Add file --> Create new file --> Name: bug_report.xml  
 
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-Commit New File
+Commit New File  
 
- 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.  
 <?xml version="1.0" encoding="UTF-8"?>
 <bug_report>
     <ID>1</ID>
@@ -95,8 +96,8 @@ Commit New File
     <Attachments>...</Attachments>
 </bug_report>
 
- 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-Commit changes
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
+Commit changes  
 
- 38. Синхронизировать внешний и локальный репозиторий XML
-git pull
+ 38. Синхронизировать внешний и локальный репозиторий XML  
+git pull  
