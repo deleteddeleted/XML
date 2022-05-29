@@ -1,1 +1,13 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<bug_report>
+     <ID>1</ID>
+  <Summary>Не работает кнопка отправки заказа</Summary>
+    <Steps to Reproduce>
+      <Step1>Пролистать до поля</Step1>
+      <Step2>Ввести значение в поле</Step2>
+      <Step3>Ввести значение в поле</Step3>
+    </Steps to Reproduce>
+    <Actual_Result>кнопка неактивна</Actual_Result>
+    <Expected_Result>кнопка нажимается, можно сделать заказ</Expected_Result>
+    <Attachments>...</Attachments>
+</bug_report>
