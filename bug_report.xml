@@ -5,7 +5,7 @@
     <Steps to Reproduce>
       <Step1>Пролистать до поля</Step1>
       <Step2>Ввести значение в поле</Step2>
-      <Step3>Ввести значение в поле</Step3>
+      <Step3>Попытаться нажать кнопку отправки заказа</Step3>
     </Steps to Reproduce>
     <Actual_Result>кнопка неактивна</Actual_Result>
     <Expected_Result>кнопка нажимается, можно сделать заказ</Expected_Result>
